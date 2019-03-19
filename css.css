@@ -10,36 +10,47 @@ body {
 	grid-gap: 5px;
   	height: 100vh ;
   	margin: 15px;  
+
 }
 
 
 header{
 	grid-area: header;
 	background-color: red;
+	border-radius: 15px 10px;
 }
 
 nav {
+	display:flex;
 	grid-area: nav;
-	background-color: blue;
-
+	background-color: #a4f6a5;
+	align-content: space-around; 
+	border-radius: 15px 10px;
 }
 
 section {
 	grid-area: section;
-	background-color: green;
+	background-color: #51eaea;
+	border-radius: 15px 10px;
 
 }
 
 aside {
 	grid-area: aside;
-	background-color: black;
+	background-color: #ea168e;
+	border-radius: 15px 10px;
 
 
 }
 
 footer {
 	grid-area: footer;
-	background-color: yellow;
+	background-color: blue;
+	border-radius: 15px 10px;
 }
 
 
+h3{
+	text-align-last: right;
+
+}
