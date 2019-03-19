@@ -1,0 +1,45 @@
+body { 
+	display: grid;
+	grid-template-areas: 
+    "header header "
+    "nav nav"
+    "aside section"
+    "footer footer ";
+	grid-template-rows: 5% 5% 79% 8%;
+	grid-template-columns: 80px;
+	grid-gap: 5px;
+  	height: 100vh ;
+  	margin: 15px;  
+}
+
+
+header{
+	grid-area: header;
+	background-color: red;
+}
+
+nav {
+	grid-area: nav;
+	background-color: blue;
+
+}
+
+section {
+	grid-area: section;
+	background-color: green;
+
+}
+
+aside {
+	grid-area: aside;
+	background-color: black;
+
+
+}
+
+footer {
+	grid-area: footer;
+	background-color: yellow;
+}
+
+
